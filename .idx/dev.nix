@@ -7,6 +7,9 @@
   packages = [
     pkgs.nodejs_22
     pkgs.python3
+    pkgs.android-tools
+    pkgs.javacc
+    pkgs.ios-webkit-debug-proxy
   ];
   # Sets environment variables in the workspace
   env = {};
